@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    max-width: 1440px;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 375px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.title:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.eth img {
+    margin-right: 5px;
+}
+
+.clock {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+}
+
+.clock img {
+    margin-right: 5px;
+}
+
+.line {
+    border: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-right: 20px;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.name {
+    color: hsl(215, 51%, 70%);
+}
+
+.name span {
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+
+.name span:hover {
+    color: hsl(178, 100%, 50%);
+}
